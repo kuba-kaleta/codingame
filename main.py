@@ -1,4 +1,4 @@
-from re_eval import *
+from fastest.re_eval import *
 
 
 re_eval_mod()

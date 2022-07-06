@@ -32,7 +32,16 @@ def infinite_palindromes():
 pal_gen = infinite_palindromes()
 for i in pal_gen:
     digits = len(str(i))
+    if digits == 5:
+        pal_gen.throw(ValueError("thrown"))
+        # pal_gen.close()
     print(pal_gen.send(10 ** digits))
+
+
+
+
+
+
 
 
 
