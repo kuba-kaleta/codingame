@@ -23,8 +23,3 @@ else:
     for x in m:
         sum += int(x)
     print(sum)
-
-# darrylyeo:
-
-isPrime=N=>{let i=n=N;for(;n%--i;);return(1==i)}
-print(isPrime(parseInt(readline()))?n*n:eval([...(n*n).toString()].join`+`))
