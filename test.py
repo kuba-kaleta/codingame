@@ -1,1 +1,2 @@
-print(eval("1*2+1*3+1"))
+print(ord('a'))
+print(ord('i'))
