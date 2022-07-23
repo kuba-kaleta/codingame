@@ -1,2 +1,1 @@
-print(ord('a'))
-print(ord('i'))
+[int(i)for i in "13 45 1".split()]
