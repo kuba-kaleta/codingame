@@ -33,3 +33,6 @@ class GoldenRetriever(Dog):
     def speak(self, sound="Bark"):
         return super().speak(sound)
 
+
+i1 = GoldenRetriever("Human", 1)
+print(i1)
